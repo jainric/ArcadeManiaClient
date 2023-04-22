@@ -1,0 +1,25 @@
+.blueCar {
+  position: relative;
+  top: 5px;
+  text-align: center;
+  -webkit-animation: mover 2s linear infinite;
+          animation: mover 2s linear infinite;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    top: -1px;
+  }
+  100% {
+    top: 781px;
+  }
+}
+
+@keyframes mover {
+  0% {
+    top: -1px;
+  }
+  100% {
+    top: 781px;
+  }
+}/*# sourceMappingURL=blueCar.module.css.map */

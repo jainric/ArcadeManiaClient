@@ -1,0 +1,51 @@
+.startBtn {
+  background-color: aqua;
+  padding: 0.3rem 2rem;
+  font-weight: bold;
+  border: none;
+  margin: 1% 47% 0;
+  cursor: pointer;
+}
+
+.game {
+  display: block;
+  height: 600px;
+  width: 600px !important;
+  border: 1px solid black;
+  margin: 0.6rem auto;
+  background-image: url("../../../../../../public/images/road.png");
+  background-size: contain;
+  overflow: hidden;
+}
+.game .redCar {
+  position: relative;
+  top: 350px;
+  text-align: center;
+}
+
+.resultCard {
+  height: 200px;
+  width: 400px;
+  background-color: rgb(231, 105, 105);
+  margin: 1rem auto;
+  border-radius: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  display: none;
+}
+.resultCard .score {
+  font-size: 2.2rem;
+  color: goldenrod;
+}
+.resultCard .restartBtn {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: none;
+  background-color: black;
+  color: cyan;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=carCrash.module.css.map */

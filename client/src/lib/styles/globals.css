@@ -1,0 +1,16 @@
+/* Global Styling here */
+.asideLeftPane {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  height: 91vh !important;
+  top: 0 !important;
+  float: left;
+  z-index: 100;
+}
+
+.pad-x-2-override {
+  -webkit-padding-start: var(--chakra-space-2) !important;
+          padding-inline-start: var(--chakra-space-2) !important;
+  -webkit-padding-end: var(--chakra-space-2) !important;
+          padding-inline-end: var(--chakra-space-2) !important;
+}/*# sourceMappingURL=globals.css.map */

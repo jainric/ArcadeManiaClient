@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+}
+.App .Turn {
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 10px;
+  color: #007eff;
+  border: 2px solid #3476d9;
+  padding: 10px 20px;
+}
+.App .TurnText {
+  font-weight: bold;
+  font-size: 20px;
+}
+.App .Board {
+  margin: auto;
+  border-radius: 15px;
+  background-color: #507ed8;
+  border: 2px solid #0a2146;
+  padding: 10px;
+  display: flex;
+  max-width: 600px;
+}
+.App .Board .Column {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding: 10px !important;
+}
+.App .Board .Column:hover {
+  background-color: rgb(75, 75, 236);
+  border-radius: 15px;
+}
+.App .Cell {
+  border-radius: 50px !important;
+  width: 50px !important;
+  height: 50px !important;
+  border: 2px solid #1b61ee;
+  box-shadow: 0 0 0 2px #134783;
+  background-color: #f9f9f9;
+  background-size: 10px 10px;
+  margin: 5px !important;
+}
+.App .Cellred {
+  background: red;
+}
+.App .Cellyellow {
+  background: yellow;
+}
+
+.Overlay {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.Modal {
+  margin-top: 130px;
+  color: #007eff;
+  background: #fff;
+  border: 2px solid #3476d9;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+.Modal h1 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.Modal h1 span {
+  margin-left: 10px;
+}/*# sourceMappingURL=connect4.module.css.map */

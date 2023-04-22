@@ -1,0 +1,81 @@
+.container {
+
+  ol,
+  ul {
+    padding-left: 30px;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  button {
+    min-height: 30px;
+    height: 100px;
+    width: 100px;
+  }
+
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+/* Styling for square of game*/
+.square {
+  background: #eee;
+  border: 1px solid #999;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 80px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 80px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-info {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-info div {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.players button {
+  margin: 10px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.spacer{
+  margin: 10px;
+  height: 40px;
+}

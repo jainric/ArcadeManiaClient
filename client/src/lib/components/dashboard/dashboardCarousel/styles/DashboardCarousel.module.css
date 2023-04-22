@@ -1,0 +1,16 @@
+.mySwiper {
+  width: 80vw;
+  height: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.swiperSlide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=DashboardCarousel.module.css.map */
